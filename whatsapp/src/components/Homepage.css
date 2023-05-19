@@ -1,0 +1,46 @@
+.header{
+    border: 1px solid darkgrey;
+    font-weight: bold;
+    width: 400px;
+    margin: 20px;
+    background-color: rgba(255, 255, 255, 1);
+    border-radius: 15px;
+    text-align: center;
+    margin-top: 40px;
+    
+
+}
+.header h3{
+    margin: 5px;
+}
+.card-container{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+ 
+   font-weight: bold;
+   flex-direction: column;
+   
+}
+.ant-tabs{
+    width: 400px; 
+  
+    border:1px solid black;
+    color: white;
+    border: 1px solid white;
+    padding: 20px;
+    border-radius: 15px;
+     box-shadow: .5px .5px 10px 1px white;
+    
+}
+
+
+@media screen and (max-width: 480px) {
+    .header{
+        margin-top: 60px;
+        width: 90vw;
+    }
+    .ant-tabs{
+        width: 90vw;
+    }
+  }

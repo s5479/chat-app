@@ -1,0 +1,12 @@
+.avatar{
+    cursor: pointer;
+    background-color: #E8E8E8;
+    width: 96%;
+    padding: 2px;
+    margin-bottom: 2px;
+    border-radius: 5px;
+}
+.avatar:hover{
+    background-color: #38B2AC;
+    color: white;
+}
